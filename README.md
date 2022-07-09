@@ -1,3 +1,3 @@
 # Web Centry Calculator
 
-A simple century calculator made in 4 hour
+A simple century calculator made in 2 hour

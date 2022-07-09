@@ -1,3 +1,4 @@
+// created by Alexandru Chindris
 function centuryCalculator() {
     let input = document.getElementById("usr_input");
     let result = document.getElementById("result");
