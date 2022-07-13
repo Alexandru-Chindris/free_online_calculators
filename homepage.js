@@ -1,5 +1,5 @@
 function century () {
-    window.open("century\century_calculator.html",'_self');
+    window.location.href = 'century\century_calculator.html';
 }
 
 function github() {
