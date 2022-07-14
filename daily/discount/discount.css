@@ -1,0 +1,72 @@
+/* created by Alexandru Chindris */
+.title{
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
+  color: #C3C3C3;
+  margin-bottom: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+body{
+  background-color: #474350;
+}
+
+.footer{
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 99%;
+}
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+.space{
+  height: 10px;
+}
+
+.btn{
+  border-radius: 7px;
+  border-style: hidden;
+  font-weight: bolder;
+}
+
+.btn:hover{
+  background-color: #474350;
+  border-style: solid;
+  color: #C3C3C3;
+  border-color: antiquewhite;
+}
+
+.final{
+  font-weight: bolder;
+  font-size: larger;
+  color: #ABA8B2;
+}
+
+#usr_price{
+  margin-bottom: 16px;
+}
+
+#usr_discount{
+  margin-bottom: 16px;
+  width: 180px;
+}
+
+.discount{
+  color: #5386E4;
+  font-weight: bolder;
+}
+
+.history{
+  text-align: center;
+  font-weight: bolder;
+  color: #C3C3C3;
+}
+
+.history:hover{
+  color: antiquewhite;
+}
