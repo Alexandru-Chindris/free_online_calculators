@@ -1,0 +1,71 @@
+/* created by Alexandru Chindris following codewithharry tutorial */
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #586A6A;
+  color: #AAFAC8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #C7FFED;
+  font-weight: bolder;
+}
+
+.footer{
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 99%;
+}
+
+.row{
+  margin: 8px 0;
+}
+
+.row input{
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.center{
+  text-align: center;
+}
+  
+.bg-red{
+  background: red;
+}
+  
+.mx-auto{
+  margin: auto;
+}
+  
+.flex{
+  display:flex;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+  
+.items-center{
+  align-items: center;
+}

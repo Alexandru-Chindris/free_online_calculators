@@ -1,0 +1,52 @@
+h1{
+  text-align: center;
+  color: #BFC0C0;
+}
+
+body{
+  background-color: #2D3142;
+}
+
+.cus_btn:hover{
+  background-color: #BFC0C0;
+}
+
+.btn_handle{
+  text-align: center;
+}
+.cus_btn{
+  border-radius: 10px;
+  background-color: #2D3142;
+  color: #0A8754;
+  border-style: hidden;
+  padding-bottom: 10px;
+  font-size: xx-large; 
+  cursor: pointer;
+}
+
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: #7371FC;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span:hover{
+  color: #CAFE48;
+}
+
+.size{
+  font-size: small;
+}
+
+.subtitle{
+  text-align: center;
+  color: #BFC0C0;
+}
+
+.footer{
+  color: white;
+  overflow: hidden;
+  top: 99%;
+}

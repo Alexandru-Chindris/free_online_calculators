@@ -1,0 +1,36 @@
+<!-- created by Alexandru Chindris-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alexandru Chindris"/>
+    <meta name="keywords" content="discount, calculator, free, online" />
+    <meta name="description" content="This site calculate the discount of a given price."/>
+    <script src="discount.js"></script> 
+    <link rel="stylesheet" href="discount.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- <meta http-equiv="refresh" content="1">     -->
+    <title>Discount Calculator</title>
+</head>
+<body>
+    <div class="title">Discount calculator</div>
+    <div class="container" id="js_container">
+        <input placeholder="insert the price in (€) here" type="number" id="usr_price">
+        <input placeholder="insert the discount (%) here" type="number" id="usr_discount"><br>
+        <button class="btn " id="submit_button" onclick="discount()">Calculate the discount</button>
+        <div class="space"></div>
+        <div class="final">Price with discount:<span id="f_discount"></span></div>
+    </div>
+    <div class="footer">
+        <marquee>first release: Thursday 14 July 2022</marquee>
+    </div>
+    <!-- Ideas: add a button like (save Hystory checkbox) 
+    and while is true save the history of the calculations 
+    on the screen -->
+    <br><br>
+    <div class="history">
+        <input type="checkbox" id="history" name="History">
+        <label for="tennis">Save history in the page</label>
+    </div>
+</body>
+</html>
