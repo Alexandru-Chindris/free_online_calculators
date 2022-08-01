@@ -1,0 +1,160 @@
+/* created by Alexandru Chindris  */
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.utility{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.pos{
+    margin-top: 480px;
+    font-size: 40px;
+    color: #000103;
+}
+
+.pos:hover{
+    cursor: default;
+}
+
+
+.cus_pos{
+    padding-left: 300px;
+}
+
+.cus_text{
+    font-size: 25px;
+    color: white;
+}
+
+.btn_handle{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.cus_btn{
+    border-radius: 10px;
+    border-style: hidden;
+    padding-bottom: 10px;
+    font-size: x-large; 
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.cus_btn:hover{
+    background-color: #49A078;
+    color: white;
+}
+
+#daily_usage{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+#mathematics{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+#geometry{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+.pos-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #000103;
+}
+
+.pos-3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #000103;
+}
+
+#page_title:hover{
+    cursor: row-resize;
+}
+
+#btn{
+    font-size: xx-large;
+}
+
+#btn:hover{
+    color: #49A078;
+    text-shadow: 0.3px 0.4px 0px #B7B5B3;
+    cursor: row-resize;
+}
+
+.dim{
+    font-size: 70px;
+    color: black;
+}
+
+.dim:hover{
+    color: #49A078;
+}
+
+#text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+#page_title{
+    background-image: url(images/background_title.png);
+    background-size: cover;
+}
+
+#container_about:hover{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images/about.jpg");
+}
+
+#hov:hover{
+    color: #49A078;
+    text-decoration:underline;
+}
+
+#container_about{
+    height: 1300px;
+    background-image: url(images/about.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#container_tool{
+    background-image: url(images/coding.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+#container_code{
+    background-image: url(images/final.jpg);
+    background-size: cover;
+}
+
+/* Subtitle animations from: https://css-tricks.com/cool-hover-effects-that-use-css-text-shadow/ */
+.hover-1{
+    --h: 1.2em;
+    
+    line-height: var(--h);
+    color: #0000;
+    text-shadow: 
+      0 calc(-1*var(--_t,0em)) #000, 
+      0 calc(var(--h) - var(--_t,0em)) #49A078;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.hover-1:hover{
+    --_t: var(--h);
+}
